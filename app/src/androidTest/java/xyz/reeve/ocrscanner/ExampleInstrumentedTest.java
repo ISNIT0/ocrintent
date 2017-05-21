@@ -1,4 +1,4 @@
-package xyz.reeve.ocrintent;
+package xyz.reeve.ocrscanner;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

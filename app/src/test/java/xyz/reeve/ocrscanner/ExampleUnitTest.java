@@ -1,4 +1,4 @@
-package xyz.reeve.ocrintent;
+package xyz.reeve.ocrscanner;
 
 import org.junit.Test;
 

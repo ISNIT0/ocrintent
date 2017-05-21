@@ -1,13 +1,10 @@
-package xyz.reeve.ocrintent
+package xyz.reeve.ocrscanner
 
 import android.app.Activity
 import android.content.Intent
-import android.content.res.AssetManager
 import android.graphics.Bitmap
-import android.net.Uri
 import android.os.Environment
 import android.os.Handler
-import android.os.Looper
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.graphics.BitmapFactory
@@ -21,13 +18,10 @@ import android.widget.Toast
 import co.metalab.asyncawait.async
 
 import com.edmodo.cropper.CropImageView
-import com.flurgle.camerakit.CameraKit
 import com.flurgle.camerakit.CameraListener
 import com.flurgle.camerakit.CameraView
 import com.googlecode.tesseract.android.TessBaseAPI
 
-import java.io.ByteArrayInputStream
-import java.io.ByteArrayOutputStream
 import java.io.File
 import java.io.FileOutputStream
 import java.io.IOException
@@ -236,6 +230,6 @@ class SCAN : AppCompatActivity() {
     }
 
     companion object {
-        internal val TARGET_BASE_PATH = Environment.getExternalStorageDirectory().toString() + "/ocrIntent/"
+        internal val TARGET_BASE_PATH = Environment.getExternalStorageDirectory().toString() + "/ocrScanner/"
     }
 }

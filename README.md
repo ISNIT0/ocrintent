@@ -16,7 +16,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
     val PACKAGE:String = "xyz.reeve.ocrscanner"
     val ACTIVITYID:Int = 0
 
-    //Check intent exists
+    //TODO: Check intent exists
     val i = Intent(ACTION)
     i.setPackage(PACKAGE)
     startActivityForResult(i, ACTIVITYID)
